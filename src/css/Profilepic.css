@@ -1,0 +1,46 @@
+
+
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly transparent black */
+    z-index: 100; /* Ensure it stays on top */
+  }
+ /* Center the modal and make sure it appears on top */
+.profilepic {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 200;
+    /* width: 300px; */
+    text-align: center;
+  }
+  
+  /* Styling for the buttons */
+  .upload-btn, button {
+   font-weight: 700;
+  background: none;
+   border: none;
+    padding: 10px;
+    font-size: medium;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  
+  
+  /* Adding space between the buttons and text */
+  .changePic div {
+ padding: 15px 80px     ;
+  }
+  

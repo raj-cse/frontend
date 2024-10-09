@@ -1,0 +1,74 @@
+/* Signup.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    border: 2px solid black;
+    padding: 30px; /* Increased padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 450px; /* Increased width */
+    text-align: center;
+}
+
+.signUpLogo {
+    width: 120px; /* Increased logo size */
+    margin-bottom: 25px;
+}
+
+.loginPara {
+    font-size: 18px; /* Increased font size */
+    color:black;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.input-sign {
+    margin-bottom: 20px;
+}
+
+.input-sign input {
+    width: 100%;
+    padding: 12px; /* Slightly larger padding */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px; /* Increased input font size */
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+#submit-btn {
+    width: 100%;
+    padding: 12px; /* Larger button padding */
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px; /* Increased button font size */
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: #287bd9;
+}
+.form-2{
+    padding: 10px;
+}
+.signUpLogo {
+    width: 200px;  /* Set the width to your desired size */
+    height: 50px; /* Set the height to your desired size */
+    object-fit: cover; /* This ensures the image doesn't stretch and keeps its aspect ratio */
+  }
+  
